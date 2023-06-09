@@ -32,7 +32,7 @@ public class UsuarioController {
 	@Autowired
 	private IFollows followsrepository;
 
-	@GetMapping("/Usuario")
+	@GetMapping("/Usuarios")
 	public @ResponseBody List<Usuario> getAllUsuario() {
 	List <Usuario> usuarios=repositorio.findAll();
 	
